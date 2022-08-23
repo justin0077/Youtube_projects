@@ -1,0 +1,26 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Startup Project",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss assets/css/styles.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss assets/css/style.comp.css",
+    "concat:css": "concat -o assets/css/style.concat.css assets/css/style.comp.css",
+    "compress:css": "node-sass assets/css/styles.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css compress:css"
+  },
+  "author": "Justin van der Kwaak",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1"
+  }
+}

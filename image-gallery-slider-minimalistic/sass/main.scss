@@ -1,0 +1,20 @@
+/*=============== IMPORT ABSTRACTS SCSS DIRECTORY ===============*/
+@import 'abstracts/variables';
+@import 'abstracts/breakpoints';
+
+/*=============== IMPORT BASE SCSS DIRECTORY ===============*/
+
+@import 'base/base';
+@import 'base/typography';
+
+
+/*=============== IMPORT COMPONENTS SCSS DIRECTORY ===============*/
+@import 'components/gallery';
+@import 'components/swiper';
+
+/*=============== IMPORT LAYOUTS SCSS DIRECTORY ===============*/
+
+
+/*=============== IMPORT PAGES SCSS DIRECTORY ===============*/
+
+@import 'pages/home';

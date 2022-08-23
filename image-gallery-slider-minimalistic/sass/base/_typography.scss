@@ -1,0 +1,12 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* Responsive typography */
+@media screen and (min-width: 1024px) {
+    :root {
+      --h3-font-size: 1.125rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+    }
+  }
+   
